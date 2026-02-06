@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: hospital_raw
+    database: HOSPITAL_PRICE_RAW
+    schema: INGESTION
+    tables:
+      - name: RAW_MAYO_AZ
+      - name: RAW_BANNER_PHX

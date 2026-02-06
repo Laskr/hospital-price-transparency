@@ -1,0 +1,20 @@
+# Credentials
+.env
+profiles.yml
+
+# Python
+__pycache__/
+.venv/
+.pytest_cache/
+
+# Data and Logs
+data/
+logs/
+*.csv
+*.xlsx
+*.gz
+
+# dbt
+analytics_pipeline/target/
+analytics_pipeline/dbt_packages/
+analytics_pipeline/logs/
