@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: hospital_raw
+    database: HOSPITAL_PRICES
+    schema: RAW_DATA
+    tables:
+      - name: RAW_MAYO_860800150_MAYO_CLINIC_ARIZONA_STANDARDCHARGES
+      - name: RAW_BANNER_270036499_BANNER_UNIVERSITY_MEDICAL_CENTER_PHOENIX_STANDARDCHARGES
